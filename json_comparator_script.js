@@ -150,4 +150,10 @@ let jsonObj2;
       console.log(mismatchedSet);
     }
 
+    $("#submit").click(function(){
+      var text = $("#exampleFormControlTextarea1").val();
+      console.log(text);
+      alert(text);
+    })
+
 });
